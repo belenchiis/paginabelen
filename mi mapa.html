@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<head>
+    <title>Belen</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/menu.js"></script>
+
+  <script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+  </script>
+
+</head>
+
+<body>
+<nav class="nav">
+  <div class="container">
+      <div class="logo">
+          <a href="home.html">Your Logo</a>
+      </div>
+      <div id="mainListDiv" class="main_list">
+          <ul class="navlinks">
+              <li><a href="mi mapa.html">Mi mapa</a></li>
+              <li><a href="logros.html">Logros</a></li>
+              <li><a href="proyectos.html">Proyectos</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+      </div>
+      <span class="navTrigger">
+          <i></i>
+          <i></i>
+          <i></i>
+      </span>
+  </div>
+</nav>
+
+<section class="mapa">
+  <div class="container"> 
+
+    <!--Estrella 1-->
+    <button type="button" class="buttonStar1" data-toggle="modal" data-target="#dialogo1">   <img src="./Assets/estrella.png" height ="30" width="30" />
+    </button>
+  
+    <div class="modal fade" id="dialogo1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+    
+          <!-- cuerpo del diálogo -->
+          <div class="modal-body">
+              Nací en la Ciudad de México y ahí viví hasta cumplir los 14 años.
+
+              En el año 2015 me gradué de la preparatoria con mi diploma de “International Baccalaureate”.
+
+              Después de mi graduación decidí tomar cursos cortos para encontrar mi vocación en Montreux, Florencia y París.
+          </div>
+          <!-- pie del diálogo -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    
+    <!--Estrella 2-->
+    <div class="container"> 
+    <button type="button" class="buttonStar2" data-toggle="modal" data-target="#dialogo2">   <img src="./Assets/estrella.png" height ="30" width="30" />
+    </button>
+  
+    <div class="modal fade" id="dialogo2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+    
+          <!-- cuerpo del diálogo -->
+          <div class="modal-body">
+            En Montreux estudié “Etiqueta y Protocolo Internacional” en Institut Villa Pierrefeu.
+          </div>
+          <!-- pie del diálogo -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <!--Estrella 3-->
+    <div class="container"> 
+    <button type="button" class="buttonStar3" data-toggle="modal" data-target="#dialogo3">   <img src="./Assets/estrella.png" height ="30" width="30" />
+    </button>
+  
+    <div class="modal fade" id="dialogo3">
+      <div class="modal-dialog">
+        <div class="modal-content">
+    
+          <!-- cuerpo del diálogo -->
+          <div class="modal-body">
+            En Florencia estudié italiano, arte y actuación.
+          </div>
+          <!-- pie del diálogo -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!--Estrella 4-->
+    <div class="container"> 
+      <button type="button" class="buttonStar4" data-toggle="modal" data-target="#dialogo4">   <img src="./Assets/estrella.png" height ="30" width="30" />
+      </button>
+    
+      <div class="modal fade" id="dialogo4">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- cuerpo del diálogo -->
+            <div class="modal-body">
+              En Paris completé el “Diplôme de Cuisine” del Cordon Bleu y me recibí en Noviembre del 2016.
+
+
+              A principios del 2017 trabajé en un restaurante famoso por sus platillos con caviar llamado “Prunier”.
+            </div>
+            <!-- pie del diálogo -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      <!--Estrella 5-->
+      <div class="container"> 
+        <button type="button" class="buttonStar5" data-toggle="modal" data-target="#dialogo5">   <img src="./Assets/estrella.png" height ="30" width="30" />
+        </button>
+      
+        <div class="modal fade" id="dialogo5">
+          <div class="modal-dialog">
+            <div class="modal-content">
+        
+              <!-- cuerpo del diálogo -->
+              <div class="modal-body">
+                  En Septiembre 2017 entré a la universidad de hotelería de Lausana en Suiza, llamada EHL.
+
+                  En 2023 me recibí de la universidad con un diploma en “International Hospitality Management”.
+              </div>
+              <!-- pie del diálogo -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--Estrella 6-->
+    <div class="container"> 
+      <button type="button" class="buttonStar6" data-toggle="modal" data-target="#dialogo6">   <img src="./Assets/estrella.png" height ="30" width="30" />
+      </button>
+    
+      <div class="modal fade" id="dialogo6">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- cuerpo del diálogo -->
+            <div class="modal-body">
+              En 2018 hice mi primer viaje a Asia, donde hice una pasantía de 6 meses en un hotel de lujo de Hong Kong llamado “The Upper House”.
+              
+              
+              En 2021 fui a Hong Kong por segunda vez para trabajar en un grupo de restaurantes llamado “Black Sheep Restaurants”.
+            </div>
+            <!-- pie del diálogo -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      <!--Estrella 7-->
+      <div class="container"> 
+        <button type="button" class="buttonStar7" data-toggle="modal" data-target="#dialogo7">   <img src="./Assets/estrella.png" height ="30" width="30" />
+        </button>
+      
+        <div class="modal fade" id="dialogo7">
+          <div class="modal-dialog">
+            <div class="modal-content">
+        
+              <!-- cuerpo del diálogo -->
+              <div class="modal-body">
+                En Febrero del 2023 trabajé en una compañía de vuelos privados como “Concierge”.
+              </div>
+              <!-- pie del diálogo -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <!--Estrella 8-->
+      <div class="container"> 
+        <button type="button" class="buttonStar8" data-toggle="modal" data-target="#dialogo8">   <img src="./Assets/estrella.png" height ="30" width="30" />
+        </button>
+      
+        <div class="modal fade" id="dialogo8">
+          <div class="modal-dialog">
+            <div class="modal-content">
+        
+              <!-- cuerpo del diálogo -->
+              <div class="modal-body">
+                En Junio del 2023 empecé a trabajar como vendedora en una empresa en Barcelona llamada “Placement International” que ayuda a la gente de todo el mundo a conseguir un trabajo en la hotelería en Estados Unidos.
+              </div>
+              <!-- pie del diálogo -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+</section>
+
+
+<!-- Button trigger modal -->
+
+
+<h6 class="saludos">
+
+   
+    En el año 2011 me mudé a vivir a Aix en Provence, Francia. 
+    En el año 2015 me gradué de la preparatoria con mi diploma de “International Baccalaureate”.
+    Después de mi graduación decidí tomar cursos cortos para encontrar mi vocación en Montreux, Florencia y París.
+    En Montreux estudié “Etiqueta y Protocolo Internacional” en Institut Villa Pierrefeu.
+    En Florencia estudié italiano, arte y actuación.
+    En Paris completé el “Diplôme de Cuisine” del Cordon Bleu y me recibí en Noviembre del 2016.
+    A principios del 2017 trabajé en un restaurante famoso por sus platillos con caviar llamado “Prunier”.
+    En Septiembre 2017 entré a la universidad de hotelería de Lausana en Suiza, llamada EHL.
+    En 2018 hice mi primer viaje a Asia, donde hice una pasantía de 6 meses en un hotel de lujo de Hong Kong llamado “The Upper House”.
+    En 2021 fui a Hong Kong por segunda vez para trabajar en un grupo de restaurantes llamado “Black Sheep Restaurants”.
+    En 2023 me recibí de la universidad con un diploma en “International Hospitality Management”.
+    En Febrero del 2023 trabajé en una compañía de vuelos privados como “Concierge”.
+    En Junio del 2023 empecé a trabajar como vendedora en una empresa en Barcelona llamada “Placement International” que ayuda a la gente de todo el mundo a conseguir un trabajo en la hotelería en Estados Unidos.
+
+</h6>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+<footer class="footerHome">
+    <h1>  No te vayas!</h1>
+    <h3>  Conóceme un poco más... </h3>
+    <div class="contenedorFooter">
+      <a href="https://www.instagram.com/">
+        <img src="./Assets/instagram.png" class="styleInstagram">
+      </a>
+      <a href="https://www.instagram.com/">
+        <img src="./Assets/email.png" class="styleInstagram">
+      </a>
+    <img>
+    </div>
+</footer>
+
+
+
+
+
